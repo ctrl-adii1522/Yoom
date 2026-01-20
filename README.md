@@ -58,38 +58,9 @@ Users can sign up or log in securely using Clerk authentication. Once authentica
 2. cd yoom-clone
 3. npm install
 4. NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_key
-CLERK_SECRET_KEY=your_secret
+   CLERK_SECRET_KEY=your_secret
 5. npm run dev
 6. Open http://localhost:3000 in your browser
 
-🌐 Live Demo
-
 🔗 yoom-theta.vercel.app
 
-📌 Use Cases
-
-Online meetings and discussions
-
-Virtual interviews
-
-Team collaboration
-
-Remote learning sessions
-
-🔮 Future Improvements
-
-Screen sharing
-
-Chat during meetings
-
-Participant role management
-
-Meeting analytics
-
-📄 License
-
-This project is for educational and learning purposes only.
-
-🙌 Acknowledgements
-
-Inspired by modern video conferencing platforms like Zoom. Built to explore real-time communication, authentication, and scalable frontend architecture.
