@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🎥 Yoom – Video Conferencing Web Application (Clone)
 
-## Getting Started
+Yoom is a modern video conferencing web application inspired by Zoom, built to provide seamless real-time communication with secure authentication and intuitive meeting management. The platform enables users to create meetings, share links, join video calls, and manage sessions efficiently with a clean and responsive interface.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🔐 Secure authentication using Clerk
+- 📅 Create and manage video meetings
+- 🔗 Shareable meeting links
+- 🎥 Real-time audio & video communication
+- 📼 Call recording support
+- 👥 Session and participant management
+- 📱 Fully responsive design for all devices
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## 🛠️ Tech Stack
 
-## Learn More
+**Frontend**
+- Next.js
+- React.js
+- JavaScript (ES6+)
+- HTML5, CSS3
 
-To learn more about Next.js, take a look at the following resources:
+**Authentication**
+- Clerk
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Real-Time Communication**
+- WebRTC
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+**Deployment**
+- Vercel
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## ⚙️ How It Works
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Users can sign up or log in securely using Clerk authentication. Once authenticated, they can create new meetings or join existing ones via shareable links. The application uses WebRTC to establish peer-to-peer connections for real-time audio and video streaming. Session handling ensures smooth communication, low latency, and stable performance even with multiple participants.
+
+---
+
+## 📈 Performance & Optimization
+
+- Optimized real-time communication using WebRTC
+- Efficient session handling for multiple concurrent users
+- Responsive UI for smooth experience across devices
+- Deployed on Vercel for fast load times and reliability
+
+---
+
+## 🧑‍💻 Installation & Setup
+
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/your-username/yoom-clone.git
