@@ -1,4 +1,4 @@
-# 🎥 Yoom – Video Conferencing Web Application (Clone)
+# 🎥 Yoom – Video Conferencing Web Application
 
 Yoom is a modern video conferencing web application inspired by Zoom, built to provide seamless real-time communication with secure authentication and intuitive meeting management. The platform enables users to create meetings, share links, join video calls, and manage sessions efficiently with a clean and responsive interface.
 
